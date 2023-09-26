@@ -1,7 +1,15 @@
-# Kubernetes Resources for Keycloak
+# Page for Helm Charts Repository
 
-This repo contains Kubernetes resources for Keycloak. This currently focus on offer a Helm chart for the Keycloak Operator.
+This GitHub Page is only for hosting the Helm Charts Repositories for [saqara/keycloak-operator-helm](https://github.com/saqara/keycloak-operator-helm).
 
-- [keycloak-operator](./charts/keycloak-operator/): Helm chart for the Keycloak Operator.
+- [keycloak-operator](https://github.com/saqara/keycloak-operator-helm/tree/main/charts/keycloak-operator/): Helm chart for the Keycloak Operator.
 
-For notes for maintainers, see [MAINTAINERS.md](./MAINTAINERS.md).
+Go to the original GitHub Link: [saqara/keycloak-operator-helm](https://github.com/saqara/keycloak-operator-helm).
+
+## Maintainer Notes
+
+References:
+
+- https://helm.sh/docs/topics/chart_repository/#github-pages-example
+- https://helm.sh/docs/howto/chart_releaser_action/#helm
+- https://github.com/marketplace/actions/helm-chart-releaser
