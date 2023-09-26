@@ -2,8 +2,24 @@ apiVersion: v1
 entries:
   keycloak-operator:
   - apiVersion: v2
+    appVersion: 20.0.3
+    created: "2023-09-26T17:38:49.5510339+02:00"
+    description: Community Keycloak Helm Chart for Keycloak Operator based on the
+      official manifests
+    digest: 2c343b01de14b03e8c8d48cba4b7bb560ecd639aa454a38d61ef888c89851e11
+    icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
+    name: keycloak-operator
+    sources:
+    - https://github.com/saqara/keycloak-operator-helm/tree/main/charts/keycloak-operator
+    - https://github.com/keycloak/keycloak-k8s-resources
+    - https://github.com/keycloak/keycloak
+    type: application
+    urls:
+    - keycloak-operator-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-09-26T17:28:15.3481839+02:00"
+    created: "2023-09-26T17:38:49.5472268+02:00"
     description: Community Keycloak Helm Chart for Keycloak Operator based on the
       official manifests
     digest: 0b6e91edf11b8f63d2b5d366f9905e19d26e631aa1770ec9b1d889f451e1fe71
@@ -19,7 +35,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-09-26T17:28:15.3471806+02:00"
+    created: "2023-09-26T17:38:49.5462116+02:00"
     description: Community Keycloak Helm Chart for Keycloak Operator based on the
       official manifests
     digest: 9aa85a4afcdc5ccea470f78cd3f7f3dcdaa4c108f0dd660da4d23fe60d2cbfba
@@ -35,7 +51,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-09-26T17:28:15.3456751+02:00"
+    created: "2023-09-26T17:38:49.5457038+02:00"
     description: Community Keycloak Helm Chart for Keycloak Operator based on the
       official manifests
     digest: 1cf8e34ffbb2aee4e0ea32a1413d2b8fc289cefcf8310db1b9b72a3302936e5d
@@ -47,7 +63,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-09-26T17:28:15.3456751+02:00"
+    created: "2023-09-26T17:38:49.5416489+02:00"
     description: Community Keycloak Helm Chart for Keycloak Operator based on the
       official manifests
     digest: cd197bb962f5eea055cf96bb8e8241a251dbc279a5747fdf2ce1bd67550bd017
@@ -59,7 +75,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-09-26T17:28:15.3446744+02:00"
+    created: "2023-09-26T17:38:49.538056+02:00"
     description: A Helm chart for Keycloak Operator
     digest: efbf661979eeae7313d3754a91ec410c6f9d0dc22ea91ec3c90876b687d45979
     icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
@@ -68,4 +84,4 @@ entries:
     urls:
     - keycloak-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-26T17:28:15.343169+02:00"
+generated: "2023-09-26T17:38:49.5334389+02:00"
